@@ -44,3 +44,8 @@ The instructions for use are as follows :
       To run the application from the command line, use :
 
       java -jar "dist/gli_cli.jar"
+      
+      NB : Please ensure that you run the application from
+      the root directory (See above) -- otherwise the
+      application will fail. 
+      
