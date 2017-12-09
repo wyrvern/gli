@@ -12,6 +12,14 @@ I have compiled a java based word game using Swing and java 8.
 
 The instructions for use are as follows :
 
+      To run the application from the command line, use :
+
+      java -jar "dist/gli_cli.jar"
+      
+      NB : Please ensure that you run the application from
+      the root directory (See above) -- otherwise the
+      application will fail. 
+
     - The Swing interface has a number of given elements,
       an input textbox which the user uses to interact with
       the computer/AI. A letter is typed sequentially,
@@ -40,12 +48,4 @@ The instructions for use are as follows :
       A further note, -- the word entry provided by the
       player is referenced by the word/dictionary. If a
       match exists, - it will stop and the player will lose.
-
-      To run the application from the command line, use :
-
-      java -jar "dist/gli_cli.jar"
-      
-      NB : Please ensure that you run the application from
-      the root directory (See above) -- otherwise the
-      application will fail. 
       
